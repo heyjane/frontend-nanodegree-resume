@@ -11,11 +11,16 @@
 .education-entry, .work-entry, .project-entry {
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 5px;
+}
+
+#projectSample {
+  display = inline-block;
 }
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #d65c10;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +28,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #2a2a2a;
   line-height: 29px;
   padding: 10px;
 }
@@ -31,14 +36,14 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  color: #666;
   line-height: 22px;
 }
 
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4A4A4A;
+  color: #979797;
   line-height: 17px;
 }
 
@@ -52,7 +57,7 @@ h2, h3, h4, h5 {
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: #979797;
   line-height: 16px;
   float: left;
 }
@@ -60,7 +65,7 @@ h2, h3, h4, h5 {
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: #979797;
   line-height: 16px;
   float: right;
 
@@ -73,50 +78,85 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #d65c10;
   text-decoration: none;
   margin-top: 10px;
   display: block;
 }
 
 .welcome-message {
-  font-style: italic;
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 20px;
+  color: #979797;
+  line-height: 1.2;
+  padding-left: 10%;
+  text-align: center;
+  display: inline-block;
+}
+
+#role {
+  color: #2a2a2a;
   font-size: 18px;
-  color: #F3F3F3;
-  line-height: 28px;
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #666;
   display: none;
+  text-align: center;
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #979797;
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #d65c10;
+}
+
+.gray-text {
+  color: #666;
 }
 
 .white-text {
-  font-weight: bold;
-  color: #FFFFFF;
+  color: #fff;
+}
+.footer-text {
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footImg {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: #fff;
   padding-bottom: 10px;
   clear:both;
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
+  background-color: #2a2a2a;
 }
 
-/* TODO: Replace with image later */
+.menu {
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+
+#menuOptions {
+  background-color: #fff;
+}
+
+/* Add some padding at the top of the header so it aligns well
+with the right nav bar.
+ */
 #header {
-  background-color: #484848;
+  background-color: #fff;
+  padding-top: 40px;
 }
 
 .flex-box {
@@ -126,6 +166,14 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+}
+
+.foot-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .center-content {
@@ -142,7 +190,7 @@ ul {
 .biopic {
   float: left;
   padding: 10px;
-  width: 200px;
+  width: 175px;
   display: none;
 }
 
@@ -176,9 +224,12 @@ span {
   }
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:910px) {
   .biopic {
     width: 175px;
+  }
+  .welcome-message {
+    font-size: 15px;
   }
 }
 
@@ -189,8 +240,18 @@ span {
   .biopic {
     width: 150px;
   }
-  .welcome-message {
+  .welcome-message, #role {
     display: none;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .menu, #role, #footerContacts {
+    display: none;
+  }
+  #name {
+    text-align: center;
   }
 }
 

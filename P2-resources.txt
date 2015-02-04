@@ -1,0 +1,69 @@
+Jane Sheppard
+Udacity Frontend Nanodegree
+Project 2 Resources
+
+Hello,
+
+I tried to make this interactive resume reflect my
+sense of design while still conforming to the project
+requirements.
+
+I took the associated JavaScript and jQuery classes on Udacity,
+and I completed the optional activities as well.
+
+I used Piazza, HipChat, and Google+ group meetings to get
+information, resolve questions, and learn new things.
+
+I used MDN, CSS, StackOverflow, and Google searches to
+find answers to questions, get info about specific features
+(like in css, html, or js) or just learn about new things.
+
+I played around with D3 and MooTools to add some data-driven
+graphic features, but I felt that I was just adding a gimmicky
+thing for no reason.  I included a picture of a word cloud
+in my images folder on GitHub, if you would like a visual
+example of what I mean. I used a D3 tool to create
+the word cloud, and I was going to put it next to my
+Online Classes under the heading of Self-study Topics and Interests,
+but it feels like I'm just adding it for the sake of adding
+it, so I'm going to figure out something better to add later.
+I spent a lot of time on color palette websites looking at
+sample palettes for web design and best practices.  (Here is
+a very original interactive website I found online:
+http://www.rleonardi.com/interactive-resume/.)
+
+I have been tweaking and playing with this for too long, and I
+need to move on to the next project.  I really like the
+design aspect, and I have heard from others that the
+next project is JavaScript oriented, so it's probably good
+that I spent a lot of time playing with CSS for this one.
+
+I was determined to put a nice navigation bar in place that would
+not interfere with my headings and look nice, so I found a tool
+to create icons (http://flaticons.net/).  I created icons for a
+top nav bar and for the bottom for contact info in the
+footer.  I did lots of research for the nav bar--hardest part was
+getting it to display like a right float so it did not
+overlay the headings.
+
+I also attended Google+ office hours to get information
+about the projects, expectations, and general information.
+In one of the office hours, the instructors shared examples
+of "exceeds expectation" projects, and stressed that
+they were looking for more than just changing colors with
+css.  I really wanted my projects to display like small
+icons (three across), so I overlaid a bootstrap container over
+the project section to create three columns.  That design
+change required using only one image, so I hope it will not
+create autograder problems since I changed my code from an array
+of images to a single image per project.
+
+I took the Git class, so I'm trying to get in the practice
+of using GitHub more regularly.
+
+I wanted a very clean and simple look for my resume to reflect
+my design philosophy; I hope I achieved that.  Looking forward
+to your thoughts!
+
+Thanks,
+Jane

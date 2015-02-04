@@ -8,6 +8,10 @@
   overflow: auto;
 }
 
+#projects, #workExperience, #education {
+  padding-top: 10px;
+}
+
 .education-entry, .work-entry, .project-entry {
   padding-left: 5%;
   padding-right: 5%;

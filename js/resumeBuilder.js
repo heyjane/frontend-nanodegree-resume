@@ -8,7 +8,9 @@ var bio = {
     "twitter" : "botajuste",
     "location" : "Chicago"
   },
-  "welcomeMessage" : '<br>"Good design is making something intelligible and memorable.<br>  Great design is making something memorable and meaningful." <br>- Dieter Rams',
+  "welcomeMessage" : '<br>"Good design is making something intelligible \
+  and memorable.<br>  Great design is making something memorable and \
+  meaningful." <br>- Dieter Rams',
   "skills" : [
   "JavaScript", "HTML5", "CSS", "Python", "UX", "Integration"
   ],
@@ -80,42 +82,71 @@ var work = {
       "title" : "Independent Consultant",
       "location" : "Chicago, IL",
       "dates" : "2011-present",
-      "description" : "Evolved early stage businesses from ideation to execution.  Strategized and implemented transformational solutions in marketing automation, performance management, goal alignment, project management, CRM, sales pipeline management, systems integration, mobile and web-based productivity tools, workflow management, and process efficiency.  Reduced expenses and increased functional productivity or in small business clients across multiple industries."
+      "description" : "Evolved early stage businesses from ideation to execution.  \
+      Strategized and implemented transformational solutions in marketing \
+      automation, performance management, goal alignment, project management, \
+      CRM, sales pipeline management, systems integration, mobile and web-based \
+      productivity tools, workflow management, and process efficiency.  \
+      Reduced expenses and increased functional productivity or in small business \
+      clients across multiple industries."
     },
     {
       "employer" : "Sheppard Homeschool",
       "title" : "Curriculum Developer/Home Educator",
       "location" : "Chicago, IL",
       "dates" : "1993-2013",
-      "description" : "Researched, developed, and implemented curricula for pre-K through grade 12. Provided consulting services to charter schools to define scope and content for accelerated learning programs.  Managed home school education outreach programs in partnership with Lyric Opera of Chicago, Chicago Symphony Orchestra, and the Art Institute of Chicago.  Successful students include a University of Chicago full academic scholarship graduate."
+      "description" : "Researched, developed, and implemented curricula for pre-K \
+      through grade 12. Provided consulting services to charter schools to \
+      define scope and content for accelerated learning programs.  \
+      Managed home school education outreach programs in partnership with \
+      Lyric Opera of Chicago, Chicago Symphony Orchestra, and the Art Institute \
+      of Chicago.  Successful students include a University of Chicago full \
+      academic scholarship graduate."
     },
     {
       "employer" : "Digital Equipment Corporation",
       "title" : "Sales Support Account Manager",
       "location" : "Elk Grove Village, IL",
       "dates" : "1986-1993",
-      "description" : "Managed technical sales support for the Quaker Oats account in Chicago.  Developed strategic plans, prepared proposals, delivered technical training to internal sales teams and external clients, and managed customer technology support.  Created and implemented software development project schedules and technical documentation plans.  Drafted, edited, and published marketing and technical documentation for software and hardware product releases."
+      "description" : "Managed technical sales support for the Quaker Oats \
+      account in Chicago.  Developed strategic plans, prepared proposals, \
+      delivered technical training to internal sales teams and external clients, \
+      and managed customer technology support.  Created and implemented \
+      software development project schedules and technical documentation plans.  \
+      Drafted, edited, and published marketing and technical documentation \
+      for software and hardware product releases."
     },
     {
       "employer" : "Airfone, Inc.",
       "title" : "Software Systems Engineer",
       "location" : "Oak Brook, IL",
       "dates" : "1984-1986",
-      "description" : "Evaluated software design proposals for system compatibility and feasibility.  Delivered in-flight testing, flight crew training, and system maintenance for a public in-flight telephone service.  Wrote and implemented a detailed pilot system evaluation plan.  Developed and delivered a national field technician training seminar.  Created detailed design specifications for a public telephone system for rail travel between New York and Washington, D.C"
+      "description" : "Evaluated software design proposals for system \
+      compatibility and feasibility.  Delivered in-flight testing, flight \
+      crew training, and system maintenance for a public in-flight \
+      telephone service.  Wrote and implemented a detailed pilot system \
+      evaluation plan.  Developed and delivered a national field technician \
+      training seminar.  Created detailed design specifications for a \
+      public telephone system for rail travel between New York and Washington, D.C"
     },
     {
       "employer" : "University of Illinois at Urbana-Champaign",
       "title" : "Instructor",
       "location" : "Urbana-Champaign, IL",
       "dates" : "1984",
-      "description" : "Taught Engineering Graphics and Design.  Supervised a design and drafting laboratory.  Cited in UIUC list of excellent professors and instructors."
+      "description" : "Taught Engineering Graphics and Design.  \
+      Supervised a design and drafting laboratory.  \
+      Cited in UIUC list of excellent professors and instructors."
     },
     {
       "employer" : "Arthur Andersen & Co.",
       "title" : "Systems Consultant",
       "location" : "Chicago, IL",
       "dates" : "1983-1984",
-      "description" : "Delivered system analyst and consulting services to corporate clients.  Developed a Project Control System for client billing and time management.  Organized a nationwide training seminar for Information Processing Systems."
+      "description" : "Delivered system analyst and consulting services \
+      to corporate clients.  Developed a Project Control System for client \
+      billing and time management.  Organized a nationwide training \
+      seminar for Information Processing Systems."
     }
   ]
 }
@@ -125,21 +156,27 @@ var projects = {
     {
       "title" : "Mockup to Website",
       "dates" : "December 2014",
-      "description" : "Replicated a design mockup (PDF-file) in HTML and CSS as part of Udacity's Front-End Web Developer Nanodegree coursework.",
+      "description" : "Replicated a design mockup (PDF-file) in HTML \
+      and CSS as part of Udacity's Front-End Web Developer Nanodegree coursework.",
       "images" :"images/mug.png",
+      /* NOTE:  I used one image per project instead of an array to accomodate my
+      formatting of three projects across the page.
+      */
       "url" : "https://github.com/heyjane/Udacity-FrontEnd-Project-One.git"
     },
     {
       "title" : "Southeast Asia Tour Blog",
       "dates" : "December 2012 - January 2013",
-      "description" : "Created a travel blog to share backpacking travels in Southeast Asia as part of a homeschool abroad trip.",
+      "description" : "Created a travel blog to share backpacking \
+      travels in Southeast Asia as part of a homeschool abroad trip.",
       "images" : "images/tripography.png",
       "url" : "http://www.tripography.weebly.com/"
     },
     {
       "title" : "Botajuste",
       "dates" : "March 2014",
-      "description" : "Designed a website to explore the market potential for petite-sized boots.  Website includes a forms survey and blog.",
+      "description" : "Designed a website to explore the market \
+      potential for petite-sized boots.  Website includes a forms survey and blog.",
       "images" : "images/boot.jpg",
       "url" : "http://www.botajuste.com/"
     }

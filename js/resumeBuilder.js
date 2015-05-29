@@ -1,18 +1,19 @@
 var bio = {
   "name" : "Jane Sheppard",
-  "role" : "Web Developer",
+  "role" : "UX Designer",
   "contacts" : {
     "mobile" : "773.405.0989",
     "email" : "janemsheppard@gmail.com",
     "github" : "heyjane",
-    "twitter" : "botajuste",
     "location" : "Chicago"
   },
   "welcomeMessage" : '<br>"Good design is making something intelligible \
   and memorable.<br>  Great design is making something memorable and \
   meaningful." <br>- Dieter Rams',
   "skills" : [
-  "JavaScript", "HTML5", "CSS", "Python", "UX", "Integration"
+  "JavaScript", "HTML", "CSS", "Python", "Photoshop", "HTML5 Canvas", "Critical Rendering Path",
+  "60FPS Rendering", "Knockout", "Jasmine",
+  "Object-oriented programming", "Behavioral economics", "Visual design", "Applied research"
   ],
   "biopic" : "images/janeBioPic.png"
 }
@@ -26,51 +27,102 @@ var education = {
       "majors": "Engineering with a Concentration in Marketing and Management",
       "dates": "1982",
       "url" : "http://engineering.illinois.edu/",
+    },
+
+    {
+      "name": "Udacity",
+      "location": "San Francisco",
+      "degree": "Front-End Web Developer Nanodegree",
+      "majors": "Courses developed in conjunction with Google and AT&T",
+      "dates": "2015",
+      "url" : "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001",
     }
   ],
 
   "onlineCourses" : [
-   {
-      "title" : "Front-End Developer Nanodegree",
+    {
+      "title" : "JavaScript Testing",
       "school" : "Udacity",
       "date" : "2015",
-      "url" : "http://www.udacity.com/course/nd001"
+      "url" : "https://www.udacity.com/course/javascript-testing--ud549"
+    },
+    {
+      "title" : "JavaScript Design Patterns",
+      "school" : "Udacity",
+      "date" : "2015",
+      "url" : "https://www.udacity.com/course/javascript-design-patterns--ud989"
+    },
+    {
+      "title" : "Intro to AJAX",
+      "school" : "Udacity",
+      "date" : "2015",
+      "url" : "https://www.udacity.com/course/intro-to-ajax--ud110"
+    },
+    {
+      "title" : "Browser Rendering Optimization",
+      "school" : "Udacity",
+      "date" : "2015",
+      "url" : "https://www.udacity.com/course/browser-rendering-optimization--ud860"
+    },
+    {
+      "title" : "Website Performance Optimization",
+      "school" : "Udacity",
+      "date" : "2015",
+      "url" : "https://www.udacity.com/course/website-performance-optimization--ud884"
+    },
+    {
+      "title" : "HTML5 Canvas",
+      "school" : "Udacity",
+      "date" : "2015",
+      "url" : "https://www.udacity.com/course/html5-canvas--ud292"
+    },
+    {
+      "title" : "Responsive Images",
+      "school" : "Udacity",
+      "date" : "2015",
+      "url" : "https://www.udacity.com/course/responsive-images--ud882"
+    },
+    {
+      "title" : "Responsive Web Design Fundamentals",
+      "school" : "Udacity",
+      "date" : "2015",
+      "url" : "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"
     },
      {
       "title" : "Object-Oriented JavaScript",
       "school" : "Udacity",
       "date" : "2015",
-      "url" : "http://www.udacity.com/course/ud015"
+      "url" : "https://www.udacity.com/course/object-oriented-javascript--ud015"
     },
     {
       "title" : "JavaScript Basics",
       "school" : "Udacity",
       "date" : "2015",
-      "url" : "http://www.udacity.com/course/ud804"
+      "url" : "https://www.udacity.com/course/javascript-basics--ud804"
     },
     {
       "title" : "Intro to jQuery",
       "school" : "Udacity",
       "date" : "2015",
-      "url" : "http://www.udacity.com/course/ud245"
+      "url" : "https://www.udacity.com/course/intro-to-jquery--ud245"
     },
     {
       "title" : "Intro to HTML and CSS",
       "school" : "Udacity",
       "date" : "2014",
-      "url" : "http://www.udacity.com/course/ud304"
+      "url" : "https://www.udacity.com/course/intro-to-html-and-css--ud304"
     },
     {
       "title" : "How to Use Git and GitHub",
       "school" : "Udacity",
       "date" : "2014",
-      "url" : "http://www.udacity.com/course/ud775"
+      "url" : "https://www.udacity.com/course/how-to-use-git-and-github--ud775"
     },
     {
       "title" : "Introduction to Computer Science",
       "school" : "Udacity",
       "date" : "2012",
-      "url" : "http://www.udacity.com/course/cs101"
+      "url" : "https://www.udacity.com/course/intro-to-computer-science--cs101"
     }
   ]
 };
@@ -82,52 +134,44 @@ var work = {
       "title" : "Independent Consultant",
       "location" : "Chicago, IL",
       "dates" : "2011-present",
-      "description" : "Evolved early stage businesses from ideation to execution.  \
-      Strategized and implemented transformational solutions in marketing \
-      automation, performance management, goal alignment, project management, \
-      CRM, sales pipeline management, systems integration, mobile and web-based \
-      productivity tools, workflow management, and process efficiency.  \
-      Reduced expenses and increased functional productivity or in small business \
-      clients across multiple industries."
+      "description" : "Defined detailed specifications for a mobile app prototype \
+      for a technology startup.  Led cross-functional teams to identify user needs \
+        and develop brand identities. Created and implemented transformational \
+      strategies for SaaS, mobile, and web-based tools for marketing automation, \
+      performance management, goal alignment, project management, CRM, sales pipeline \
+      management, productivity, workflow management, and process efficiency. "
     },
     {
       "employer" : "Sheppard Homeschool",
       "title" : "Curriculum Developer/Home Educator",
       "location" : "Chicago, IL",
       "dates" : "1993-2013",
-      "description" : "Researched, developed, and implemented curricula for pre-K \
-      through grade 12. Provided consulting services to charter schools to \
-      define scope and content for accelerated learning programs.  \
-      Managed home school education outreach programs in partnership with \
-      Lyric Opera of Chicago, Chicago Symphony Orchestra, and the Art Institute \
-      of Chicago.  Successful students include a University of Chicago full \
-      academic scholarship graduate."
+      "description" : "Researched, developed, and implemented curricula for pre-K through \
+      grade 12. Provided consulting services to charter schools to define scope and content \
+      for accelerated learning programs.  Managed education outreach programs with Lyric Opera \
+        of Chicago, Chicago Symphony Orchestra, and the Art Institute of Chicago.  "
     },
     {
       "employer" : "Digital Equipment Corporation",
       "title" : "Sales Support Account Manager",
       "location" : "Elk Grove Village, IL",
       "dates" : "1986-1993",
-      "description" : "Managed technical sales support for the Quaker Oats \
-      account in Chicago.  Developed strategic plans, prepared proposals, \
-      delivered technical training to internal sales teams and external clients, \
-      and managed customer technology support.  Created and implemented \
-      software development project schedules and technical documentation plans.  \
-      Drafted, edited, and published marketing and technical documentation \
-      for software and hardware product releases."
+      "description" : "Managed technical sales support for the Quaker Oats account in Chicago.  \
+      Developed strategic plans, prepared proposals, delivered technical training to internal \
+      sales teams and external clients. Created and implemented software development project \
+      schedules and technical documentation plans.  Drafted and published marketing and technical \
+      documents for software and hardware products."
     },
     {
       "employer" : "Airfone, Inc.",
       "title" : "Software Systems Engineer",
       "location" : "Oak Brook, IL",
       "dates" : "1984-1986",
-      "description" : "Evaluated software design proposals for system \
-      compatibility and feasibility.  Delivered in-flight testing, flight \
-      crew training, and system maintenance for a public in-flight \
-      telephone service.  Wrote and implemented a detailed pilot system \
-      evaluation plan.  Developed and delivered a national field technician \
-      training seminar.  Created detailed design specifications for a \
-      public telephone system for rail travel between New York and Washington, D.C"
+      "description" : "Evaluated software design proposals for system compatibility and feasibility.  \
+      Delivered in-flight testing, flight crew training, and system maintenance for a public in-flight \
+      telephone service.  Designed and implemented a detailed pilot system evaluation plan.  Designed \
+      and delivered a national field technician training seminar.  Created design specifications for a \
+      public phone system on railroad cars in New York and Washington, D.C."
     },
     {
       "employer" : "University of Illinois at Urbana-Champaign",
@@ -143,7 +187,7 @@ var work = {
       "title" : "Systems Consultant",
       "location" : "Chicago, IL",
       "dates" : "1983-1984",
-      "description" : "Delivered system analyst and consulting services \
+      "description" : "Delivered systems analyst and consulting services \
       to corporate clients.  Developed a Project Control System for client \
       billing and time management.  Organized a nationwide training \
       seminar for Information Processing Systems."
@@ -157,7 +201,8 @@ var projects = {
       "title" : "Mockup to Website",
       "dates" : "December 2014",
       "description" : "Replicated a design mockup (PDF-file) in HTML \
-      and CSS as part of Udacity's Front-End Web Developer Nanodegree coursework.",
+      and CSS as part of Udacity's Front-End Web Developer Nanodegree coursework.\
+      Project exceeded course expectations.",
       "images" :"images/mug.png",
       /* NOTE:  I used one image per project instead of an array to accomodate my
       formatting of three projects across the page.
@@ -165,20 +210,22 @@ var projects = {
       "url" : "https://github.com/heyjane/Udacity-FrontEnd-Project-One.git"
     },
     {
-      "title" : "Southeast Asia Tour Blog",
-      "dates" : "December 2012 - January 2013",
-      "description" : "Created a travel blog to share backpacking \
-      travels in Southeast Asia as part of a homeschool abroad trip.",
-      "images" : "images/tripography.png",
-      "url" : "http://www.tripography.weebly.com/"
+      "title" : "Website Optimization",
+      "dates" : "February 2015",
+      "description" : "Optimized performance of a fictional pizzeria website using Chrome \
+      developer tools, 60FPS rendering, and critical rendering path as part of the Udacity Nanodegree program.  \
+      Project performance exceeded course expectations.",
+      "images" : "images/pizza.png",
+      "url" : "http://heyjane.github.io/frontend-nanodegree-mobile-portfolio/build/views/pizza.html"
     },
     {
-      "title" : "Botajuste",
-      "dates" : "March 2014",
-      "description" : "Designed a website to explore the market \
-      potential for petite-sized boots.  Website includes a forms survey and blog.",
-      "images" : "images/boot.jpg",
-      "url" : "http://www.botajuste.com/"
+      "title" : "Georgetown Yoga and Coffee",
+      "dates" : "May 2015",
+      "description" : "Designed a website to display favorite yoga studios and coffee shops \
+      in Georgetown. This project integrated APIs for Google Maps and Foursquare and interactive \
+      search filters.  Project functionality exceeded course expectations.",
+      "images" : "images/interactive-map.png",
+      "url" : "https://heyjane.github.io/project5/"
     }
   ]
 };
